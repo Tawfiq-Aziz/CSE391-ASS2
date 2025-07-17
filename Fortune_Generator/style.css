@@ -1,0 +1,79 @@
+    body {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #f0f0f0;
+    }
+
+    h1 {
+        color: #3a3737;
+        padding: 50px;
+    }
+
+    p {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    #fortuneDisplay {
+        border: 2px solid black;
+        border-radius: 50px;
+        width: 500px;
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #8a6868;
+        text-align: center;
+        padding: 10px;
+        border-color: olivedrab;
+        background-color: rgb(226, 226, 165);
+    }
+
+    .control {
+        display: grid;
+        grid-template-columns: repeat(2,80px);
+        grid-gap: 10px;
+        padding: 20px;
+    }
+
+    #aqua:active,
+    #olive:active,
+    #brown:active,
+    #mint:active{
+    box-shadow: 0px 2px 0px 0px black;
+}
+
+
+    #aqua {
+        border: 2px solid black;
+        background-color: rgb(141, 224, 224);
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+
+    #olive {
+    border: 2px solid black;
+    background-color: rgb(226, 226, 165);
+    border-radius: 10px;
+
+}
+
+
+    #brown {
+    border: 2px solid black;
+    background-color: rgb(170, 87, 87);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+
+    #mint {
+    border: 2px solid black;
+    background-color: rgb(188, 226, 213);
+    border-radius: 10px;
+
+}
+
