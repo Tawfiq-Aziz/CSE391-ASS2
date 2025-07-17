@@ -14,15 +14,14 @@ startBtn.addEventListener("click", () => {
 
   startTime = Date.now()
   timerId = setInterval(() => {
-    let elapsed = Date.now() - startTime // elapsed time in ms
+    let elapsed = Date.now() - startTime 
 
-    if (elapsed >= 30000) { // stop at 30 seconds
+    if (elapsed >= 30000) { 
       clearInterval(timerId)
       timerId = null
-      elapsed = 30000 // cap at 30s
+      elapsed = 30000 
     }
 
-    // Only show seconds in multiples of 3
     let totalSeconds = Math.floor(elapsed / 1000)
     let displaySeconds = totalSeconds - (totalSeconds % 3)
 
