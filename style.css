@@ -56,7 +56,6 @@ li a {
 li:hover {
   background-color: #f0e2c4;
   transform: scale(1.02);
-  cursor: pointer;
 }
 
 li:hover a {
