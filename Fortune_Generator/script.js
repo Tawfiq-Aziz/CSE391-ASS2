@@ -48,7 +48,7 @@ function changeTheme(color) {
 document.getElementById('aqua').addEventListener('click', () => changeTheme('aqua'))
 document.getElementById('olive').addEventListener('click', () => changeTheme('olive'))
 document.getElementById('brown').addEventListener('click', () => changeTheme('brown'))
-document.getElementById('mint').addEventListener('click', () => changeTheme('mint'));
+document.getElementById('mint').addEventListener('click', () => changeTheme('mint'))
 
 
 
