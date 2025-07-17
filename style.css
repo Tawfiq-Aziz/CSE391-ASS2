@@ -50,6 +50,7 @@ li a {
   text-decoration: none;
   font-weight: bold;
   display: block;
+  user-select: none;
 }
 
 li:hover {

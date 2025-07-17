@@ -11,6 +11,11 @@ const fortunes = [
     "Connect with loved ones and cherish your relationships."
 ]
 
+const randomIndex = Math.floor(Math.random() * fortunes.length)
+const randomFortune = fortunes[randomIndex]
+
+document.getElementById('fortuneDisplay').innerText = randomFortune
+
 
 // Button functionalities
 
@@ -49,6 +54,9 @@ document.getElementById('aqua').addEventListener('click', () => changeTheme('aqu
 document.getElementById('olive').addEventListener('click', () => changeTheme('olive'))
 document.getElementById('brown').addEventListener('click', () => changeTheme('brown'))
 document.getElementById('mint').addEventListener('click', () => changeTheme('mint'))
+
+
+
 
 
 
